@@ -43,4 +43,9 @@ public class Curso {
 		this.horario = horario;
 	}
 
+	public void setCurso(Curso curso) {
+		this.nombre = curso.nombre;
+		this.duracion = curso.duracion;
+		this.horario = curso.horario;
+	}
 }
